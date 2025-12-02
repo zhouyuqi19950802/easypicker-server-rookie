@@ -1,0 +1,285 @@
+[
+  {
+    "type": "server",
+    "key": "USER",
+    "value": "ep9532b6",
+    "isSecret": true
+  },
+  {
+    "type": "server",
+    "key": "PWD",
+    "value": "e3d44160",
+    "isSecret": true
+  },
+  {
+    "type": "mysql",
+    "key": "host",
+    "value": "127.0.0.1",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:24.184Z"
+  },
+  {
+    "type": "mysql",
+    "key": "port",
+    "value": 3306,
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:24.188Z"
+  },
+  {
+    "type": "mysql",
+    "key": "database",
+    "value": "easypicker",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:24.191Z"
+  },
+  {
+    "type": "mysql",
+    "key": "user",
+    "value": "root",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:24.194Z"
+  },
+  {
+    "type": "mysql",
+    "key": "password",
+    "value": "Zyq-2710467",
+    "isSecret": true,
+    "lastUpdate": "2025-12-02T08:04:24.197Z"
+  },
+  {
+    "type": "mongo",
+    "key": "host",
+    "value": "127.0.0.1",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:53.201Z"
+  },
+  {
+    "type": "mongo",
+    "key": "port",
+    "value": 27017,
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:53.204Z"
+  },
+  {
+    "type": "mongo",
+    "key": "database",
+    "value": "easypicker",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:53.207Z"
+  },
+  {
+    "type": "mongo",
+    "key": "user",
+    "value": "",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:53.210Z"
+  },
+  {
+    "type": "mongo",
+    "key": "password",
+    "value": "",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:53.213Z"
+  },
+  {
+    "type": "mongo",
+    "key": "auth",
+    "value": false,
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:53.216Z"
+  },
+  {
+    "type": "redis",
+    "key": "host",
+    "value": "127.0.0.1",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:50.584Z"
+  },
+  {
+    "type": "redis",
+    "key": "port",
+    "value": 6379,
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:50.587Z"
+  },
+  {
+    "type": "redis",
+    "key": "password",
+    "value": "",
+    "isSecret": true,
+    "lastUpdate": "2025-12-02T08:04:50.590Z"
+  },
+  {
+    "type": "redis",
+    "key": "auth",
+    "value": false,
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:50.592Z"
+  },
+  {
+    "type": "qiniu",
+    "key": "accessKey",
+    "value": "AccessKey",
+    "isSecret": false
+  },
+  {
+    "type": "qiniu",
+    "key": "secretKey",
+    "value": "SecretKey",
+    "isSecret": true
+  },
+  {
+    "type": "qiniu",
+    "key": "bucketName",
+    "value": "BucketName",
+    "isSecret": false
+  },
+  {
+    "type": "qiniu",
+    "key": "bucketDomain",
+    "value": "BucketDomain",
+    "isSecret": false
+  },
+  {
+    "type": "qiniu",
+    "key": "imageCoverStyle",
+    "value": "",
+    "isSecret": false
+  },
+  {
+    "type": "qiniu",
+    "key": "imagePreviewStyle",
+    "value": "",
+    "isSecret": false
+  },
+  {
+    "type": "qiniu",
+    "key": "bucketZone",
+    "value": "huanan",
+    "isSecret": false
+  },
+  {
+    "type": "tx",
+    "key": "secretId",
+    "value": "test",
+    "isSecret": false
+  },
+  {
+    "type": "tx",
+    "key": "secretKey",
+    "value": "test",
+    "isSecret": true
+  },
+  {
+    "type": "tx",
+    "key": "templateId",
+    "value": "12345",
+    "isSecret": false
+  },
+  {
+    "type": "tx",
+    "key": "smsSdkAppid",
+    "value": "12345",
+    "isSecret": false
+  },
+  {
+    "type": "tx",
+    "key": "signName",
+    "value": "粥里有勺糖",
+    "isSecret": false
+  },
+  {
+    "type": "global",
+    "key": "site",
+    "value": {
+      "maxInputLength": 20,
+      "openPraise": false,
+      "formLength": 10,
+      "downloadOneExpired": 1,
+      "downloadCompressExpired": 60,
+      "compressSizeLimit": 10,
+      "needBindEmail": false,
+      "limitSpace": false,
+      "limitWallet": false,
+      "localStoragePrice": 0.05,
+      "moneyStartDay": 1717200000000,
+      "appName": "轻取",
+      "qiniuOSSPrice": 0.099,
+      "qiniuCDNPrice": 0.28,
+      "qiniuBackhaulTrafficPrice": 0.15,
+      "qiniuBackhaulTrafficPercentage": 0.8,
+      "qiniuCompressPrice": 0.05
+    },
+    "isSecret": false
+  },
+  {
+    "type": "mail",
+    "key": "smtpHost",
+    "value": "smtphz.qiye.163.com",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:05:47.221Z"
+  },
+  {
+    "type": "mail",
+    "key": "smtpPort",
+    "value": "465",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:05:47.225Z"
+  },
+  {
+    "type": "mail",
+    "key": "useSSL",
+    "value": true,
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:05:47.226Z"
+  },
+  {
+    "type": "mail",
+    "key": "account",
+    "value": "zhouyuqi@zhouyuqi.com.cn",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:05:47.229Z"
+  },
+  {
+    "type": "mail",
+    "key": "password",
+    "value": "p88CUQy7DXdBCubd",
+    "isSecret": true,
+    "lastUpdate": "2025-12-02T08:05:47.233Z"
+  },
+  {
+    "type": "mail",
+    "key": "from",
+    "value": "zhouyuqi@zhouyuqi.com.cn",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:05:47.236Z"
+  },
+  {
+    "type": "mail",
+    "key": "senderName",
+    "value": "文件归集平台",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:05:47.237Z"
+  },
+  {
+    "type": "mail",
+    "key": "subject",
+    "value": "文件归集平台 验证码",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:05:47.239Z"
+  },
+  {
+    "type": "mail",
+    "key": "template",
+    "value": "您好，验证码为 {{ code }}，请在 2 分钟内使用。",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:05:47.242Z"
+  },
+  {
+    "type": "mongo",
+    "key": "uri",
+    "value": "mongodb://127.0.0.1:27017/easypicker",
+    "isSecret": false,
+    "lastUpdate": "2025-12-02T08:04:53.219Z"
+  }
+]
